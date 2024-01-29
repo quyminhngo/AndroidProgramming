@@ -1,5 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f20"
+        android:orientation="vertical"
+        android:weightSum="4"
+        >
+
+        <TextView
+            android:text="A"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="B"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:background="#CDDC39"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="C"
+            android:textColor="@color/black"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="D"
+            android:textColor="@color/black"
+            android:background="#673AB7"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#4CAF50"
+
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:text="A"
+            android:textSize="50sp"
+
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="B"
+            android:textSize="50sp"
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#9C27B0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="C"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#E91E63"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="D"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#9C27B0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+ <!--
 <LinearLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -41,7 +153,6 @@
         android:textColor="@color/white"
         android:textSize="30sp" />
 
-
-
 </LinearLayout>
+-->
 
